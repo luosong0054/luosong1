@@ -1,17 +1,30 @@
-# luosong1
-test-project
-mkdir /apeng
-cd /apeng
-echo "# apeng" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/apenglinux/apeng.git
-git push -u origin master
-Username for 'https://github.com': luosong0054   //注册的用户名
-Password for 'https://luosong19900914':  //密码
-Counting objects: 3, done.
-Writing objects: 100% (3/3), 213 bytes | 0 bytes/s, done.
-Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/apenglinux/apeng.git
- * [new branch]      master -> master
+# my-project
+
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
